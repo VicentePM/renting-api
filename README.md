@@ -1,43 +1,22 @@
-# Aplicación de Renting de Vehículos
+# RentingVehiculosApp - API
 
-Esta aplicación permite gestionar los vehículos de una empresa de renting, almacenando información como marca, modelo y precio de alquiler en una base de datos. Además, proporciona funcionalidades para buscar vehículos según diferentes criterios.
+La **RentingVehiculosApp API** es un servicio que permite gestionar los vehículos de una empresa de renting. Permite realizar operaciones de guardar, buscar y calcular importes de alquiler.
 
 ## Configuración del Proyecto
 
-### Requisitos
-
-- JDK 11 o superior
-- Maven
-- Node.js (para la parte del cliente)
-
-### Configuración del Backend
-
 1. Clona este repositorio:
+
    ```bash
    git clone https://github.com/TuUsuario/renting-api.git
    ```
 
-2. Abre el proyecto del backend en tu IDE de preferencia.
+2. Abre el proyecto en tu entorno de desarrollo preferido.
 
 3. Ejecuta la aplicación Spring Boot.
 
-### Configuración del Cliente
+La API estará disponible en `http://localhost:8080`.
 
-1. Abre la carpeta `client` en tu editor de código.
-
-2. Instala las dependencias:
-   ```bash
-   npm install
-   ```
-
-3. Inicia la aplicación de cliente:
-   ```bash
-   npm start
-   ```
-
-4. Accede a la aplicación de cliente en `http://localhost:3000`.
-
-## Endpoints del Backend
+## Endpoints
 
 ### Guardar Vehículos (POST)
 
@@ -107,4 +86,10 @@ Esta aplicación permite gestionar los vehículos de una empresa de renting, alm
    GET /api/vehiculo/importe-total/50.0/7
    ```
 
-Este proyecto proporciona una solución integral para la gestión de vehículos de una empresa de renting, con un backend robusto y una interfaz de usuario interactiva en el cliente. ¡Explora las funcionalidades y gestiona los vehículos de manera eficiente!
+## Notas Adicionales
+
+- Asegúrate de tener una base de datos configurada correctamente. La aplicación utiliza la base de datos `tecnocom` y la tabla `clientes`. Ajusta la configuración según sea necesario.
+
+- Este proyecto está configurado para ser utilizado como una API independiente en el backend de una aplicación más grande. Asegúrate de integrarlo correctamente en tu proyecto global.
+
+¡Explora los endpoints y gestiona eficientemente los vehículos en tu empresa de renting con la RentingVehiculosApp API!
