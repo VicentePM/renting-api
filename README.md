@@ -1,4 +1,4 @@
-# RentingVehiculosApp - API
+# Renting - API
 
 La **RentingVehiculosApp API** es un servicio que permite gestionar los vehículos de una empresa de renting. Permite realizar operaciones de guardar, buscar y calcular importes de alquiler.
 
